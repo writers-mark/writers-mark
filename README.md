@@ -4,7 +4,7 @@ Easy, safe and flexible markup for user-generated content.
 
 Writer's Mark attempts to thread the needle between the simplicity of markdown and the power of HTML/CSS, while providing security guarantees so that user-generated content can be both safe and flexible at the same time.
 
-Live Demo : (insert link here)
+Live Demo : https://writers-mark.github.io/demo/
 
 ## Introduction:
 
