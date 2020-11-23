@@ -134,16 +134,16 @@ cont {
 
 ## FAQ:
 
-#### What are the propperties that I can use?
+#### What are the properties that I can use?
 
-On paper Writer's Mark support almost all [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) rules with a few caveats.
+On paper Writer's Mark supports almost all [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) rules with a few caveats.
 
 * An App is free to allow or disallow any CSS property it chooses.
 * Any value referencing external resources is disallowed e.g. `background: url("http://example.com/img.jpg");` will not work.
 * You cannot use any escape sequence. If you don't know what that means, don't worry about it.
-* Paragraphs are converted into `<p>` tags.
-* Spans are converted into `<span>` tags.
-* Containers are almost always `<div>` tags. 
+* Paragraphs are converted into `<p>` tags, so only properties that work on them can be used.
+* Spans are converted into `<span>` tags, so only properties that work on them can be used.
+* Containers are almost always `<div>` tags, so only properties that work on them can be used.
 
 
 #### Can I add images to text?
@@ -152,7 +152,7 @@ Not at the moment. We might allow something in the future, but it would have to 
 
 #### Can I put url links in the text?
 
-No. This is something that we "might" revisit in a limited manner in the future.
+Not at the moment. This is something that is being considered.
 
 ## Safety
 
