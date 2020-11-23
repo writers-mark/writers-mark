@@ -55,7 +55,7 @@ Text is just a collection of paragraphs
 This is a paragraph.
 
 This is a longer paragraph. Its text is spread over multiple
-lines, but it will behave as if it was written on a single line
+lines, but it will behave as if it was written on a single line.
 
 
 
@@ -69,7 +69,7 @@ If a paragraph begins with text matching a paragraph rule **by itself on a line*
 ```
 some_style
 This paragraph has the some_style rule applied to it.
-It will be formatted according to its properties.
+It will be formatted according to its properties as long as some_style is a style rule.
 ```
 
 Multiple styles can be applied to a single paragraph:
@@ -85,7 +85,7 @@ The rules will be applied in order from top to bottom.
 If the open sequence of a span rule is present in a paragraph, and the close sequence follows it. Everything in between will have the rule applied.
 
 ```
-The *text* of the parapgraph.
+The *text* of the paragraph.
 ```
 
 ## Writing Styles
