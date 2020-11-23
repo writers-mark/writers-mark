@@ -6,6 +6,12 @@ Writer's Mark attempts to thread the needle between the simplicity of markdown a
 
 Live Demo : https://writers-mark.github.io/demo/
 
+## Implementations
+
+* [writers-mark-ts](https://github.com/writers-mark/writers-mark-ts) Contains basic parsing and validation features.
+* [writers-mark-dom](https://github.com/writers-mark/writers-mark-dom) Atomically renders Writer's Mark directly to the dom, with a matching stylesheet.
+* [writers-mark-react](https://github.com/writers-mark/writers-mark-react) Can render Writer's Mark directly as a react component.
+
 ## Introduction:
 
 In short, it allows you to write like this:
@@ -156,8 +162,3 @@ Writer's mark is meant to be safe by default.
 * Links, images, or anything using an rxternal resource is not supported.
 * CSS properties are opted-in.
 
-## Implementations
-
-* [writers-mark-ts](https://github.com/writers-mark/writers-mark-ts) Contains basic parsing and validation features.
-* [writers-mark-dom](https://github.com/writers-mark/writers-mark-dom) Atomically renders Writer's Mark directly to the dom, with a matching stylesheet.
-* [writers-mark-react](https://github.com/writers-mark/writers-mark-react) Can render Writer's Mark directly as a react component.
