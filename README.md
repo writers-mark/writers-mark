@@ -160,4 +160,4 @@ Writer's mark is meant to be safe by default.
 
 * [writers-mark-ts](https://github.com/writers-mark/writers-mark-ts) Contains basic parsing and validation features.
 * [writers-mark-dom](https://github.com/writers-mark/writers-mark-dom) Atomically renders Writer's Mark directly to the dom, with a matching stylesheet.
-* [writers-mark-react](https://github.com/writers-mark/writers-mark-react) Can render Writer's Mark directly as a react component with partial re-renders.
+* [writers-mark-react](https://github.com/writers-mark/writers-mark-react) Can render Writer's Mark directly as a react component.
