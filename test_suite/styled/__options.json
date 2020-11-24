@@ -1,0 +1,7 @@
+{
+  "whitelist": {
+    "para": ["color", "margin"],
+    "span": ["color", "margin"],
+    "cont": ["color", "margin"]
+  }
+}

@@ -1,0 +1,35 @@
+[source]
+---
+para #blue {
+  color: blue;
+}
+---
+
+a
+
+#red
+b
+
+#blue
+c
+
+#red
+#blue
+d
+
+#blue
+#red
+e
+
+[style]
+.a {}
+.red {color: red;}
+.blue {color: blue;}
+
+
+[body]
+<p class="a">a</p>
+<p class="a red">b</p>
+<p class="a blue">c</p>
+<p class="a red blue">d</p>
+<p class="a blue red">e</p>

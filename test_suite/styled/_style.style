@@ -1,0 +1,11 @@
+para #red {
+  color:red;
+}
+
+para #offset {
+  margin: 12px;
+}
+
+span * {
+  color: black;
+}

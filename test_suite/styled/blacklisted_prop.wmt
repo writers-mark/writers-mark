@@ -1,0 +1,16 @@
+[source]
+---
+#bad {
+  background: abc;
+}
+---
+
+#bad
+aaa
+
+[style]
+.a {}
+.b {}
+
+[body]
+<p class="a b">aaa</p>

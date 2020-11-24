@@ -1,0 +1,18 @@
+[source]
+A simple paragraph
+
+__this__
+is a paragraph that weirdly looks like it has 
+a style, but it doesn't.
+
+a
+b
+c
+
+[style]
+.a {}
+
+[body]
+<p class="a">A simple paragraph</p>
+<p class="a">__this__ is a paragraph that weirdly looks like it has a style, but it doesn't.</p>
+<p class="a">a b c</p>
