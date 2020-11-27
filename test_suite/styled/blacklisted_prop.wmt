@@ -9,8 +9,7 @@ para #bad {
 aaa
 
 [style]
-.a {}
 .b {}
 
 [body]
-<p class="a b">aaa</p>
+<p class="b">aaa</p>

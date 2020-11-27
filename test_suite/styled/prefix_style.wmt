@@ -22,14 +22,13 @@ d
 e
 
 [style]
-.a {}
 .red {color: red;}
 .blue {color: blue;}
 
 
 [body]
-<p class="a">a</p>
-<p class="a red">b</p>
-<p class="a blue">c</p>
-<p class="a red blue">d</p>
-<p class="a blue red">e</p>
+<p>a</p>
+<p class="red">b</p>
+<p class="blue">c</p>
+<p class="red blue">d</p>
+<p class="blue red">e</p>

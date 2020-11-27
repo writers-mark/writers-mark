@@ -10,9 +10,8 @@ b
 c
 
 [style]
-.a {}
 
 [body]
-<p class="a">A simple paragraph</p>
-<p class="a">__this__ is a paragraph that weirdly looks like it has a style, but it doesn't.</p>
-<p class="a">a b c</p>
+<p>A simple paragraph</p>
+<p>__this__ is a paragraph that weirdly looks like it has a style, but it doesn't.</p>
+<p>a b c</p>

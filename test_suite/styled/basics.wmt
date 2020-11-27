@@ -10,14 +10,13 @@ Another styled simple paragraph
 Some text with a *span* inside.
 
 [style]
-.a {}
 .red {color: red;}
 .offset {margin: 12px;}
 .black {color: black;}
 
 
 [body]
-<p class="a">An unstyled simple paragraph</p>
-<p class="a red">A styled simple paragraph</p>
-<p class="a offset">Another styled simple paragraph</p>
-<p class="a">Some text with a <span class="black">span</span> inside.</p>
+<p>An unstyled simple paragraph</p>
+<p class="red">A styled simple paragraph</p>
+<p class="offset">Another styled simple paragraph</p>
+<p>Some text with a <span class="black">span</span> inside.</p>
